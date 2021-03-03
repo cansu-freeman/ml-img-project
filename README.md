@@ -1,10 +1,10 @@
 # ml-img-project
 Machine Learning Image Processing Project (Graduate Course Project)
 
-## Dataset
+## Original Dataset
 Dataset can be found here: [geoPose3k dataset](http://cphoto.fit.vutbr.cz/geoPose3K/).  This dataset is called GeoPose3K which contains over three thousand precise camera poses of mountain landscape images. In addition to camera location and orientation, we provide data for the training and evaluation of computer vision methods and applications in the context of outdoor scenes; synthetic depth maps, normal maps, illumination simulation and semantic label (directly from the link).
 
-## Variables 
+## Variables in df_gh.csv
 Variables in the main dataframe, df_gh.csv, come from the individual "info,txt" files that corresponded to each image. All angles are in radians, elevation in meters, and geo-coordinates are in degrees, using WGS84. They are as follows:
 
   1. **id** -- ordered list of integers to identify each image
